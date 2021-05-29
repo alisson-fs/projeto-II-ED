@@ -1,0 +1,48 @@
+\begin{theindex}
+
+  \item {A\+L\+P\+H\+A\+B\+E\+T\+\_\+\+S\+I\+ZE}
+    \subitem {trie.\+h}, \hyperpage{14}
+
+  \indexspace
+
+  \item {count\+\_\+children}
+    \subitem {structures\+::\+Trie}, \hyperpage{10}
+  \item {count\+\_\+prefix}
+    \subitem {structures\+::\+Trie}, \hyperpage{10}
+  \item {count\+\_\+words}
+    \subitem {structures\+::\+Trie}, \hyperpage{10}
+
+  \indexspace
+
+  \item {include/trie.\+h}, \hyperpage{13}
+  \item {insert}
+    \subitem {structures\+::\+Trie}, \hyperpage{11}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\+cpp}, \hyperpage{14}
+  \item {main.\+cpp}, \hyperpage{14}
+    \subitem {main}, \hyperpage{14}
+
+  \indexspace
+
+  \item {search}
+    \subitem {structures\+::\+Trie}, \hyperpage{11}
+  \item {structures}, \hyperpage{7}
+  \item {structures\+::\+Trie}, \hyperpage{9}
+    \subitem {count\+\_\+children}, \hyperpage{10}
+    \subitem {count\+\_\+prefix}, \hyperpage{10}
+    \subitem {count\+\_\+words}, \hyperpage{10}
+    \subitem {insert}, \hyperpage{11}
+    \subitem {search}, \hyperpage{11}
+    \subitem {Trie}, \hyperpage{9}
+
+  \indexspace
+
+  \item {Trie}
+    \subitem {structures\+::\+Trie}, \hyperpage{9}
+  \item {trie.\+h}
+    \subitem {A\+L\+P\+H\+A\+B\+E\+T\+\_\+\+S\+I\+ZE}, \hyperpage{14}
+
+\end{theindex}

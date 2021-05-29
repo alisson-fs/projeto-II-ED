@@ -1,0 +1,136 @@
+\hypertarget{classstructures_1_1Trie}{}\section{Referência da Classe structures\+:\+:Trie}
+\label{classstructures_1_1Trie}\index{structures\+::\+Trie@{structures\+::\+Trie}}
+
+
+\hyperlink{classstructures_1_1Trie}{Trie}.  
+
+
+
+
+{\ttfamily \#include $<$trie.\+h$>$}
+
+\subsection*{Métodos Públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classstructures_1_1Trie_af6cf71564b040dfc62bbdedbbab8271a}{Trie} ()
+\begin{DoxyCompactList}\small\item\em Construtor de um novo \hyperlink{classstructures_1_1Trie}{Trie}. \end{DoxyCompactList}\item 
+void \hyperlink{classstructures_1_1Trie_a7ad7b43b69ec6ae396de427bb5657445}{insert} (std\+::string word, int index, int length)
+\begin{DoxyCompactList}\small\item\em Adiciona uma chave na árvore. \end{DoxyCompactList}\item 
+std\+::pair$<$ int, int $>$ \hyperlink{classstructures_1_1Trie_a48aa6b17233e4544aa479035cfae3643}{search} (std\+::string word)
+\begin{DoxyCompactList}\small\item\em Procura uma palavra na árvore. \end{DoxyCompactList}\item 
+int \hyperlink{classstructures_1_1Trie_a6be483584143be5bdb2faff56e1e1c2c}{count\+\_\+prefix} (std\+::string word)
+\begin{DoxyCompactList}\small\item\em Conta o númedo de vezes que a palavra é um prefixo na árvore. \end{DoxyCompactList}\item 
+int \hyperlink{classstructures_1_1Trie_af4cd9c96d1bcc79ab4aa1f107d6dbffd}{count\+\_\+children} ()
+\begin{DoxyCompactList}\small\item\em Conta o númedo de filhos. \end{DoxyCompactList}\item 
+int \hyperlink{classstructures_1_1Trie_a770d35e02fc8762e2eabf5d717602916}{count\+\_\+words} ()
+\begin{DoxyCompactList}\small\item\em Conta o númedo de palavras a partir do nodo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descrição Detalhada}
+\hyperlink{classstructures_1_1Trie}{Trie}. 
+
+\subsection{Construtores \& Destrutores}
+\mbox{\Hypertarget{classstructures_1_1Trie_af6cf71564b040dfc62bbdedbbab8271a}\label{classstructures_1_1Trie_af6cf71564b040dfc62bbdedbbab8271a}} 
+\index{structures\+::\+Trie@{structures\+::\+Trie}!Trie@{Trie}}
+\index{Trie@{Trie}!structures\+::\+Trie@{structures\+::\+Trie}}
+\subsubsection{\texorpdfstring{Trie()}{Trie()}}
+{\footnotesize\ttfamily structures\+::\+Trie\+::\+Trie (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construtor de um novo \hyperlink{classstructures_1_1Trie}{Trie}. 
+
+Na construção do \hyperlink{classstructures_1_1Trie}{Trie} a posição (index) e o comprimento (length) são definidos inicialmente como 0 e as posições do vetor de nodos filhos (children) são definidos inicialmente como nulas.
+
+\begin{DoxyReturn}{Retorna}
+\hyperlink{classstructures_1_1Trie}{Trie} criado. 
+\end{DoxyReturn}
+
+
+\subsection{Métodos}
+\mbox{\Hypertarget{classstructures_1_1Trie_af4cd9c96d1bcc79ab4aa1f107d6dbffd}\label{classstructures_1_1Trie_af4cd9c96d1bcc79ab4aa1f107d6dbffd}} 
+\index{structures\+::\+Trie@{structures\+::\+Trie}!count\+\_\+children@{count\+\_\+children}}
+\index{count\+\_\+children@{count\+\_\+children}!structures\+::\+Trie@{structures\+::\+Trie}}
+\subsubsection{\texorpdfstring{count\+\_\+children()}{count\_children()}}
+{\footnotesize\ttfamily int structures\+::\+Trie\+::count\+\_\+children (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Conta o númedo de filhos. 
+
+\begin{DoxyReturn}{Retorna}
+Inteiro com número de filhos. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classstructures_1_1Trie_a6be483584143be5bdb2faff56e1e1c2c}\label{classstructures_1_1Trie_a6be483584143be5bdb2faff56e1e1c2c}} 
+\index{structures\+::\+Trie@{structures\+::\+Trie}!count\+\_\+prefix@{count\+\_\+prefix}}
+\index{count\+\_\+prefix@{count\+\_\+prefix}!structures\+::\+Trie@{structures\+::\+Trie}}
+\subsubsection{\texorpdfstring{count\+\_\+prefix()}{count\_prefix()}}
+{\footnotesize\ttfamily int structures\+::\+Trie\+::count\+\_\+prefix (\begin{DoxyParamCaption}\item[{std\+::string}]{word }\end{DoxyParamCaption})}
+
+
+
+Conta o númedo de vezes que a palavra é um prefixo na árvore. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em word} & Palavra a ser procurada na árvore.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Inteiro com número de vezes que a palavra é prefixo na árvore. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classstructures_1_1Trie_a770d35e02fc8762e2eabf5d717602916}\label{classstructures_1_1Trie_a770d35e02fc8762e2eabf5d717602916}} 
+\index{structures\+::\+Trie@{structures\+::\+Trie}!count\+\_\+words@{count\+\_\+words}}
+\index{count\+\_\+words@{count\+\_\+words}!structures\+::\+Trie@{structures\+::\+Trie}}
+\subsubsection{\texorpdfstring{count\+\_\+words()}{count\_words()}}
+{\footnotesize\ttfamily int structures\+::\+Trie\+::count\+\_\+words (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Conta o númedo de palavras a partir do nodo. 
+
+\begin{DoxyReturn}{Retorna}
+Inteiro com número de palavras. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classstructures_1_1Trie_a7ad7b43b69ec6ae396de427bb5657445}\label{classstructures_1_1Trie_a7ad7b43b69ec6ae396de427bb5657445}} 
+\index{structures\+::\+Trie@{structures\+::\+Trie}!insert@{insert}}
+\index{insert@{insert}!structures\+::\+Trie@{structures\+::\+Trie}}
+\subsubsection{\texorpdfstring{insert()}{insert()}}
+{\footnotesize\ttfamily void structures\+::\+Trie\+::insert (\begin{DoxyParamCaption}\item[{std\+::string}]{word,  }\item[{int}]{index,  }\item[{int}]{length }\end{DoxyParamCaption})}
+
+
+
+Adiciona uma chave na árvore. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em word} & Palavra para ser inserida. \\
+\hline
+{\em index} & Posição no dicionario da palavra a ser inserida. \\
+\hline
+{\em length} & Comprimento da linha do dicionario que possui a palavra a ser inserida. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classstructures_1_1Trie_a48aa6b17233e4544aa479035cfae3643}\label{classstructures_1_1Trie_a48aa6b17233e4544aa479035cfae3643}} 
+\index{structures\+::\+Trie@{structures\+::\+Trie}!search@{search}}
+\index{search@{search}!structures\+::\+Trie@{structures\+::\+Trie}}
+\subsubsection{\texorpdfstring{search()}{search()}}
+{\footnotesize\ttfamily std\+::pair$<$ int, int $>$ structures\+::\+Trie\+::search (\begin{DoxyParamCaption}\item[{std\+::string}]{word }\end{DoxyParamCaption})}
+
+
+
+Procura uma palavra na árvore. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em word} & Palavra a ser procurada na árvore.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Um par (std\+::pair$<$int, int$>$) que indica se a palavra pertence ao dicionário ou se é um prefixo. Caso a palavra pertença ao dicionário, o primeiro valor do par representa a posição da palavra enquanto o segundo representa o comprimeto da linha. 
+\end{DoxyReturn}
+
+
+A documentação para esta classe foi gerada a partir do seguinte arquivo\+:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{trie_8h}{trie.\+h}\end{DoxyCompactItemize}
